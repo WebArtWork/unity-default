@@ -1,0 +1,62 @@
+# =============== #
+# Unity Generated #
+# =============== #
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uilds/
+/[Bb]uild/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+
+# =========== #
+# OS Specific #
+# =========== #
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ========== #
+# Packages #
+# ========== #
+/[Pp]ackages/
+/[Pp]ackage[Cc]ache/
+/[Pp]roject[Cc]ache/
+
+# =============== #
+# Version Control #
+# =============== #
+/.vscode/
+/.idea/
+/*.suo
+/*.ntvs*
+/*.njsproj
+/*.sln
+/*.userprefs
+
+# ========== #
+# Logs #
+# ========== #
+*.log
+*.tlog
+*.cache
+*.pidb
+*.ilk
+*.obj
+*.pdb
+*.svd
+
+# ========== #
+# Unity Specific #
+# ========== #
+/[Tt]emp/
+/[Bb]uilds/
+/[Ll]ibrary/
+/MemoryCaptures/
+
