@@ -24,8 +24,9 @@ The project supports the following platforms:
 ## Project Structure
 ```
 /default-unity-project
- ├── /core          → Shared logic (gameplay, UI, networking)
- ├── /platforms
+ ├── /Assets          → Unity assets (textures, models, scripts, UI)
+ ├── /ProjectSettings → Unity project settings and configurations
+ ├── /Platforms
  │    ├── /vr-android      → Quest, Pico VR setup
  │    ├── /vr-windows      → SteamVR, OpenXR setup
  │    ├── /vr-macos        → macOS VR support (limited)
@@ -35,9 +36,6 @@ The project supports the following platforms:
  │    ├── /desktop-linux   → Linux-specific configurations
  │    ├── /desktop-macos   → macOS-specific configurations
  │    ├── /web             → WebGL & WebXR configurations
- ├── /assets        → Common assets (textures, models, UI)
- ├── /scripts       → Shared C# scripts for game logic
- ├── /builds        → Output builds per platform
 ```
 
 ## Development Plan
@@ -50,10 +48,9 @@ The project supports the following platforms:
 ### **2️⃣ Initialize Each Platform**
 1. **VR Android (Quest, Pico)** → Configure OpenXR, add Oculus/Pico SDK if needed.
 2. **VR Windows (Valve, Vive, Windows MR)** → Enable OpenXR, setup SteamVR.
-3. **VR macOS** → Implement limited VR support.
-4. **Mobile (Android, iOS)** → Implement touch UI & accelerometer support.
-5. **Desktop (Windows, macOS, Linux)** → Set up keyboard/mouse & controller input.
-6. **Web (WebGL, WebXR)** → Adjust UI for browser compatibility.
+3. **Mobile (Android, iOS)** → Implement touch UI & accelerometer support.
+4. **Desktop (Windows, macOS, Linux)** → Set up keyboard/mouse & controller input.
+5. **Web (WebGL, WebXR)** → Adjust UI for browser compatibility.
 
 ### **3️⃣ Build Each Platform**
 1. Automate builds per platform using **waw unity CLI**.
